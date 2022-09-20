@@ -49,3 +49,4 @@ It will lead to stack overflow on line #3.
 ```
 
 The bug is easily exploitable.
+It is probably still unpatched.
