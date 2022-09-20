@@ -1,4 +1,5 @@
-Solaris Kernel stack overflow
+Solaris Kernel stack overflow.
+
 Tested on 11.4
 
 Vulnerability details (using illumos source)
