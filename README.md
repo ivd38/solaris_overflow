@@ -42,9 +42,9 @@ prusrio(proc_t *p, enum uio_rw rw, struct uio *uiop, int old)
                                 break;
                         }
                 }
-```
+
 uio_resid is signed integer so check on line #1 can be bypassed when uiop->uio_resid < 0.
 It will lead to stack overflow on line #3.
-
+```
 
 The bug is easily exploitable.
